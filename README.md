@@ -16,4 +16,8 @@ In the h file you can:
 
 The write function receives 2 arrays with the motor signals (microseconds) and servo angles (degrees). 
 
-An example is given in ./Inputs_Test
+An example is given in Inputs_Test.cpp. 
+You can call this function as ./Inputs_Test 10 1 0.02 and it will generate sinusoidal signals 
+in all the pins. As of this writting. Servo 4 (Channel 7 - Pin 8) is reversed. If you connect
+two leds in (pin8-any pin) you will see them alternating on/off in inverted (one is off while 
+other is on)
