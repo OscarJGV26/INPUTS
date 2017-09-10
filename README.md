@@ -1,5 +1,7 @@
 # INPUTS
-This library has a class called INPUT which handles PWM signals going for servos and motors/ESCs in the system.
+This library has a class called INPUT which handles PWM signals going for servos and motors/ESCs in the Beaglebone Blue.
+To use it you must have installed the PRUs used by Ardupilot. 
+Follow the "Install Debian" steps in (https://github.com/mirkix/BBBMINI/blob/master/doc/software/software.md) without step 16.
 
 The begin function allows you to:
   1. Specify a desired frequency for all the PWM signals. 
