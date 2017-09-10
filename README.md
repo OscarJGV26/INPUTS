@@ -15,3 +15,5 @@ In the h file you can:
   4. Offset servo angles. E.g. 90 degrees is actually 92-93. It is intended for fine tunning.
 
 The write function receives 2 arrays with the motor signals (microseconds) and servo angles (degrees). 
+
+An example is given in ./Inputs_Test
